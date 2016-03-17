@@ -19,7 +19,27 @@ body{
 .transform-calc{
 	transform: rotate(360deg);
 	border-radius: 10%;
-	transition: all 4s ease-out;
+	transition: all 3s ease-out;
+	border: 3px #f00 solid;
+}
+
+.transform-calc1{
+	transform: rotate(720deg);
+	border-radius: 100%;
+	transition: all 3s ease-out;
+	border: 1px #f00 solid;
+}
+.transform-calc2{
+	transform: rotate(180deg);
+	border-radius: 100%;
+	transition: all 3s ease-out;
+	border: 1px #f00 solid;
+}
+
+.transform-calc3{
+	transform: rotate(180deg);
+	border-radius: 100%;
+	transition: all 3s ease-out;
 	border: 1px #f00 solid;
 }
 
