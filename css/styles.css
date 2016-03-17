@@ -16,6 +16,18 @@ body{
 	box-shadow: 0px 4px #009ed4, 0px 10px 15px rgba(0,0,0,.2);
 }
 
+.transform-calc{
+	transform: rotate(360deg);
+	border-radius: 10%;
+	transition: all 4s ease-out;
+	border: 1px #f00 solid;
+}
+
+
+
+
+
+
 .calc-row{
 	margin-top: 20px;
 	margin-left: -5px;

@@ -99,6 +99,8 @@ function doIt(){
 	$('.screen').val(total);
 	if(total ==42){
 		$('#meaning').animate({left: '5000px'},5000);
+	}else if(total===360){
+		$('#calculator').addClass('transform-calc');
 	}
 }
 
