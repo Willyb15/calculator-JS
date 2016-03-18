@@ -32,7 +32,7 @@ body{
 .transform-calc2{
 	transform: rotate(180deg);
 	border-radius: 100%;
-	transition: all 3s ease-out;
+	transition: all 5s ease-out;
 	border: 1px #f00 solid;
 }
 

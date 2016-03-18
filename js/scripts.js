@@ -110,5 +110,9 @@ function doIt(){
 		$('#calculator').removeClass('transform-calc2').addClass('transform-calc1');
 	}else if(total>1000000){
 		window.open('https://www.google.com');	
+	}else if(total===10 ){
+		$(':button').addClass('transform-calc1');
+	}else if(total===15 ){
+		$(':text').addClass('transform-calc1');
 	}
 }
