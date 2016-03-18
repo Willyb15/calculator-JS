@@ -7,7 +7,7 @@ $(document).ready(function(){
 		}else if
 		($(this).hasClass('clear')){
 			$('.screen').val('');
-			$('#calculator').removeClass("transform-calc1, transform-calc2, transform-calc");
+			$('#calculator').removeClass("transform-calc1 transform-calc2 transform-calc");
 		}else{
 			var currentScreenVal = $('.screen').val();
 			$('.screen').val(currentScreenVal + $(this).val());
