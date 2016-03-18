@@ -7,6 +7,7 @@ $(document).ready(function(){
 		}else if
 		($(this).hasClass('clear')){
 			$('.screen').val('');
+			$('#calculator').removeClass("transform-calc1, transform-calc2, transform-calc");
 		}else{
 			var currentScreenVal = $('.screen').val();
 			$('.screen').val(currentScreenVal + $(this).val());
@@ -108,6 +109,6 @@ function doIt(){
 	}else if(total===07734 + 5 ){
 		$('#calculator').removeClass('transform-calc2').addClass('transform-calc1');
 	}else if(total>1000000){
-		window.open('https://www.google.com');
+		window.open('https://www.google.com');	
 	}
 }
